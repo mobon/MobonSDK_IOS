@@ -1,0 +1,11 @@
+framework module MobonSDKFramework {
+  umbrella header "MobonSDKFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module MobonSDKFramework.Swift {
+    header "MobonSDKFramework-Swift.h"
+    requires objc
+}
