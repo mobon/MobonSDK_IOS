@@ -33,3 +33,8 @@
 ### 2) Objective-C 프로젝트
 #### AdFit SDK는 Swift 4.2 기반으로 개발되었습니다. Objective-C 기반의 프로젝트에서 AdFit SDK를 사용하기 위해서는 Swift Standard 라이브러리들을 Embed 시켜주어야 합니다.
 #### 앱 프로젝트의 빌드 세팅에서 Always Embed Swift Standard Libraries 항목을 Yes로 설정해주세요.
+
+
+## 3. 광고 요청
+
+MobonSDKSample 의 소스를 확인해 주세요.
