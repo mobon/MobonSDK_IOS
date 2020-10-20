@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		L1P+oZLL8a12RSNgM1hc8ePAeEI=
+		XzYa7Squ9Xt3O06aR7bN5wMXAmc=
 		</data>
 		<key>Headers/MobonSDKFramework-Swift.h</key>
 		<data>
-		n8B2YkxJlBU8c/484BjO1YGReGM=
+		YV6uohHSlmIaD1zRW/OdcXRzbkg=
 		</data>
 		<key>Headers/MobonSDKFramework.h</key>
 		<data>
@@ -18,51 +18,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gs4/HcIWkPkLO01ulzYlcrf8p5M=
+		BAh05Ux4gonQXau3tG8n25Z5gw8=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		0k5fkylhW3KOrTb0wC289cFWh+I=
+		m83g1YLh5dRdQyTlcQsWeZN2CTo=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		0k5fkylhW3KOrTb0wC289cFWh+I=
+		m83g1YLh5dRdQyTlcQsWeZN2CTo=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		ZKj4IljEa2EE6LwKlW8VzjRh738=
+		nPQd1utbwpF9RW6Ii4d/PUsEHjQ=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		8dQr5Fv/ijngbNKr3knaMecH36E=
+		xQlwH1PDYRLGOEok6ggint8YbwY=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		ZKj4IljEa2EE6LwKlW8VzjRh738=
+		nPQd1utbwpF9RW6Ii4d/PUsEHjQ=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		8dQr5Fv/ijngbNKr3knaMecH36E=
+		xQlwH1PDYRLGOEok6ggint8YbwY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		Web9ufHaetAQiwCNBXbrok8gnJk=
-		</data>
-		<key>btn_close_01_off.png</key>
-		<data>
-		7sE5TkfzSXixREG6V2Jn8IBUe2I=
-		</data>
-		<key>img_background_y.png</key>
-		<data>
-		v0auIN11ua3rBsxEbF7FcVz5v24=
-		</data>
-		<key>img_click_y.png</key>
-		<data>
-		VaYA/B39C9jGQkDzS5m8r7oaXk0=
-		</data>
-		<key>pngfuel.com (2).png</key>
-		<data>
-		O2yIvfCor0zF5Dqa05mkuYLOX7o=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -71,14 +55,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a8Y80CaSzWU0h6pLw+uCBkZeEUgL4G+LTWW4QgwjUSY=
+			etrJ4FabQm+aYXcz+vaSxdFeNxPSVi5xlM5gmSnvwKo=
 			</data>
 		</dict>
 		<key>Headers/MobonSDKFramework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f2Rp//CQNg5fOFlHVTWRjhi+rzhA0qQJMpEIPBJI/7o=
+			3BYTXqun2apHQKJDPO/kh1SzL7LzL/zsTHIv6pyNqnU=
 			</data>
 		</dict>
 		<key>Headers/MobonSDKFramework.h</key>
@@ -92,42 +76,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t00wlmEzkmdVj0rpMvCKuFiYNx9eD/p1JAb0SM4yuQE=
+			HWskyG3lTCxAE+j6w8Jw7vNh9Fo8KFM57cSX/Jk9v48=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t00wlmEzkmdVj0rpMvCKuFiYNx9eD/p1JAb0SM4yuQE=
+			HWskyG3lTCxAE+j6w8Jw7vNh9Fo8KFM57cSX/Jk9v48=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u8MyE9jIm5mtCeCZBkocjddlciBtnvj3cUc5W1pFubE=
+			TpBY2Ht+tRsfBgjOEIgUwCN+SbaGBGeq9olWXiURtZQ=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C9663bNEhM85Wvp1psM9W2UTZntNzihtNXMPamuTFuY=
+			4khz94OQIS8kK0W524hQQCCEY9/xF5dsjnZdJZMCVw8=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u8MyE9jIm5mtCeCZBkocjddlciBtnvj3cUc5W1pFubE=
+			TpBY2Ht+tRsfBgjOEIgUwCN+SbaGBGeq9olWXiURtZQ=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C9663bNEhM85Wvp1psM9W2UTZntNzihtNXMPamuTFuY=
+			4khz94OQIS8kK0W524hQQCCEY9/xF5dsjnZdJZMCVw8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -135,34 +119,6 @@
 			<key>hash2</key>
 			<data>
 			8Pq6QJ3XpRCV4EOEutPCXlNnSxetfdzRXs7i5tlx6v8=
-			</data>
-		</dict>
-		<key>btn_close_01_off.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yTgekdSxUfn18EiasCMd8ZBSU+rG8mbij0kIx2Ktj2U=
-			</data>
-		</dict>
-		<key>img_background_y.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WvdvGO0GVy3jIojILgNfG1Jsq/Er3Pyk5bF5fjs4yl0=
-			</data>
-		</dict>
-		<key>img_click_y.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			T3us4g+COsCZoHw0WDl9E4TdKzX4F4fxpHnnCrcuHlE=
-			</data>
-		</dict>
-		<key>pngfuel.com (2).png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4hchdSNeP9L8+hRc0HL/wuO29CPliusij7q3bCsjrLI=
 			</data>
 		</dict>
 	</dict>

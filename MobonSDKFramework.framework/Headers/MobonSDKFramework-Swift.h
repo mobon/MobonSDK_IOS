@@ -233,7 +233,7 @@ SWIFT_PROTOCOL("_TtP17MobonSDKFramework25MobonBannerAdViewDelegate_")
 @protocol MobonInterstitialAdViewDelegate;
 @class NSBundle;
 
-SWIFT_CLASS("_TtC17MobonSDKFramework23MobonInterstitialAdView")
+SWIFT_CLASS("_TtC17MobonSDKFramework23MobonInterstitialAdView") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface MobonInterstitialAdView : UIViewController
 @property (nonatomic, weak) id <MobonInterstitialAdViewDelegate> _Nullable delegate;
 @property (nonatomic, weak) UIViewController * _Nullable rootViewController;
@@ -246,7 +246,7 @@ SWIFT_CLASS("_TtC17MobonSDKFramework23MobonInterstitialAdView")
 @end
 
 
-SWIFT_PROTOCOL("_TtP17MobonSDKFramework31MobonInterstitialAdViewDelegate_")
+SWIFT_PROTOCOL("_TtP17MobonSDKFramework31MobonInterstitialAdViewDelegate_") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @protocol MobonInterstitialAdViewDelegate <NSObject>
 @optional
 - (void)interstitialDidReceiveAd:(MobonInterstitialAdView * _Nonnull)interstitialAdView;
