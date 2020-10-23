@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MobonSdkSample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'MobonSDK' 
+
+  # Pods for MobonSdkSample
+
+  target 'MobonSdkSampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MobonSdkSampleUITests' do
+    # Pods for testing
+  end
+
+end

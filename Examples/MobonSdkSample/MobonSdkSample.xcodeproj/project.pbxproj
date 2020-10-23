@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		725596513C5F7F7415A1E3FC /* Pods_MobonSdkSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708223E3A4A096D5A2C7DE5A /* Pods_MobonSdkSample.framework */; };
+		9BB7397A253578C900295C47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB73979253578C900295C47 /* AppDelegate.swift */; };
+		9BB7397C253578C900295C47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7397B253578C900295C47 /* SceneDelegate.swift */; };
+		9BB7397E253578C900295C47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7397D253578C900295C47 /* ViewController.swift */; };
+		9BB73981253578C900295C47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB7397F253578C900295C47 /* Main.storyboard */; };
+		9BB73983253578CA00295C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB73982253578CA00295C47 /* Assets.xcassets */; };
+		9BB73986253578CA00295C47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB73984253578CA00295C47 /* LaunchScreen.storyboard */; };
+		9BB73991253578CA00295C47 /* MobonSdkSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB73990253578CA00295C47 /* MobonSdkSampleTests.swift */; };
+		9BB7399C253578CA00295C47 /* MobonSdkSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7399B253578CA00295C47 /* MobonSdkSampleUITests.swift */; };
+		AC94BD069BC8ED383A121586 /* Pods_MobonSdkSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606374ED43F56C3927DEB695 /* Pods_MobonSdkSampleTests.framework */; };
+		F3F325C9B43CBF3AC0728852 /* Pods_MobonSdkSample_MobonSdkSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C236D36AAA410DBDB7B333 /* Pods_MobonSdkSample_MobonSdkSampleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BB7398D253578CA00295C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BB7396E253578C900295C47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BB73975253578C900295C47;
+			remoteInfo = MobonSdkSample;
+		};
+		9BB73998253578CA00295C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BB7396E253578C900295C47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BB73975253578C900295C47;
+			remoteInfo = MobonSdkSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111706C1D0A62D5172594DD1 /* Pods-MobonSdkSample-MobonSdkSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobonSdkSample-MobonSdkSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-MobonSdkSample-MobonSdkSampleUITests/Pods-MobonSdkSample-MobonSdkSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D0F25BC32B013517F48A18C /* Pods-MobonSdkSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobonSdkSampleTests.release.xcconfig"; path = "Target Support Files/Pods-MobonSdkSampleTests/Pods-MobonSdkSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		50713BA77FB637DCBB6F0FAA /* Pods-MobonSdkSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobonSdkSample.release.xcconfig"; path = "Target Support Files/Pods-MobonSdkSample/Pods-MobonSdkSample.release.xcconfig"; sourceTree = "<group>"; };
+		50FDA2217E7ED07E1AFEB219 /* Pods-MobonSdkSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobonSdkSample.debug.xcconfig"; path = "Target Support Files/Pods-MobonSdkSample/Pods-MobonSdkSample.debug.xcconfig"; sourceTree = "<group>"; };
+		606374ED43F56C3927DEB695 /* Pods_MobonSdkSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobonSdkSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6995238F335CDCABB99D7F17 /* Pods-MobonSdkSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobonSdkSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-MobonSdkSampleTests/Pods-MobonSdkSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		708223E3A4A096D5A2C7DE5A /* Pods_MobonSdkSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobonSdkSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB73976253578C900295C47 /* MobonSdkSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobonSdkSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB73979253578C900295C47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BB7397B253578C900295C47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9BB7397D253578C900295C47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BB73980253578C900295C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BB73982253578CA00295C47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BB73985253578CA00295C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BB73987253578CA00295C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BB7398C253578CA00295C47 /* MobonSdkSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobonSdkSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB73990253578CA00295C47 /* MobonSdkSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobonSdkSampleTests.swift; sourceTree = "<group>"; };
+		9BB73992253578CA00295C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BB73997253578CA00295C47 /* MobonSdkSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobonSdkSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB7399B253578CA00295C47 /* MobonSdkSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobonSdkSampleUITests.swift; sourceTree = "<group>"; };
+		9BB7399D253578CA00295C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A20B68F5093CA38C32FF67 /* Pods-MobonSdkSample-MobonSdkSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobonSdkSample-MobonSdkSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-MobonSdkSample-MobonSdkSampleUITests/Pods-MobonSdkSample-MobonSdkSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B5C236D36AAA410DBDB7B333 /* Pods_MobonSdkSample_MobonSdkSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobonSdkSample_MobonSdkSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BB73973253578C900295C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725596513C5F7F7415A1E3FC /* Pods_MobonSdkSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB73989253578CA00295C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC94BD069BC8ED383A121586 /* Pods_MobonSdkSampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB73994253578CA00295C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F325C9B43CBF3AC0728852 /* Pods_MobonSdkSample_MobonSdkSampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4069846C4D8C8B25890C9E4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				708223E3A4A096D5A2C7DE5A /* Pods_MobonSdkSample.framework */,
+				B5C236D36AAA410DBDB7B333 /* Pods_MobonSdkSample_MobonSdkSampleUITests.framework */,
+				606374ED43F56C3927DEB695 /* Pods_MobonSdkSampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BB7396D253578C900295C47 = {
+			isa = PBXGroup;
+			children = (
+				9BB73978253578C900295C47 /* MobonSdkSample */,
+				9BB7398F253578CA00295C47 /* MobonSdkSampleTests */,
+				9BB7399A253578CA00295C47 /* MobonSdkSampleUITests */,
+				9BB73977253578C900295C47 /* Products */,
+				D4869C3FCF4C3AF84A57B3EB /* Pods */,
+				4069846C4D8C8B25890C9E4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9BB73977253578C900295C47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BB73976253578C900295C47 /* MobonSdkSample.app */,
+				9BB7398C253578CA00295C47 /* MobonSdkSampleTests.xctest */,
+				9BB73997253578CA00295C47 /* MobonSdkSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BB73978253578C900295C47 /* MobonSdkSample */ = {
+			isa = PBXGroup;
+			children = (
+				9BB73979253578C900295C47 /* AppDelegate.swift */,
+				9BB7397B253578C900295C47 /* SceneDelegate.swift */,
+				9BB7397D253578C900295C47 /* ViewController.swift */,
+				9BB7397F253578C900295C47 /* Main.storyboard */,
+				9BB73982253578CA00295C47 /* Assets.xcassets */,
+				9BB73984253578CA00295C47 /* LaunchScreen.storyboard */,
+				9BB73987253578CA00295C47 /* Info.plist */,
+			);
+			path = MobonSdkSample;
+			sourceTree = "<group>";
+		};
+		9BB7398F253578CA00295C47 /* MobonSdkSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BB73990253578CA00295C47 /* MobonSdkSampleTests.swift */,
+				9BB73992253578CA00295C47 /* Info.plist */,
+			);
+			path = MobonSdkSampleTests;
+			sourceTree = "<group>";
+		};
+		9BB7399A253578CA00295C47 /* MobonSdkSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7399B253578CA00295C47 /* MobonSdkSampleUITests.swift */,
+				9BB7399D253578CA00295C47 /* Info.plist */,
+			);
+			path = MobonSdkSampleUITests;
+			sourceTree = "<group>";
+		};
+		D4869C3FCF4C3AF84A57B3EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50FDA2217E7ED07E1AFEB219 /* Pods-MobonSdkSample.debug.xcconfig */,
+				50713BA77FB637DCBB6F0FAA /* Pods-MobonSdkSample.release.xcconfig */,
+				111706C1D0A62D5172594DD1 /* Pods-MobonSdkSample-MobonSdkSampleUITests.debug.xcconfig */,
+				A7A20B68F5093CA38C32FF67 /* Pods-MobonSdkSample-MobonSdkSampleUITests.release.xcconfig */,
+				6995238F335CDCABB99D7F17 /* Pods-MobonSdkSampleTests.debug.xcconfig */,
+				3D0F25BC32B013517F48A18C /* Pods-MobonSdkSampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BB73975253578C900295C47 /* MobonSdkSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB739A0253578CA00295C47 /* Build configuration list for PBXNativeTarget "MobonSdkSample" */;
+			buildPhases = (
+				D34C902E85819AB7D77F0517 /* [CP] Check Pods Manifest.lock */,
+				9BB73972253578C900295C47 /* Sources */,
+				9BB73973253578C900295C47 /* Frameworks */,
+				9BB73974253578C900295C47 /* Resources */,
+				115E183C17BA0E3EE450C72A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobonSdkSample;
+			productName = MobonSdkSample;
+			productReference = 9BB73976253578C900295C47 /* MobonSdkSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BB7398B253578CA00295C47 /* MobonSdkSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB739A3253578CA00295C47 /* Build configuration list for PBXNativeTarget "MobonSdkSampleTests" */;
+			buildPhases = (
+				91D3AD53F615460EE6CC90FE /* [CP] Check Pods Manifest.lock */,
+				9BB73988253578CA00295C47 /* Sources */,
+				9BB73989253578CA00295C47 /* Frameworks */,
+				9BB7398A253578CA00295C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BB7398E253578CA00295C47 /* PBXTargetDependency */,
+			);
+			name = MobonSdkSampleTests;
+			productName = MobonSdkSampleTests;
+			productReference = 9BB7398C253578CA00295C47 /* MobonSdkSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BB73996253578CA00295C47 /* MobonSdkSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB739A6253578CA00295C47 /* Build configuration list for PBXNativeTarget "MobonSdkSampleUITests" */;
+			buildPhases = (
+				D6C7DAB4E9F3EFBBD0F23179 /* [CP] Check Pods Manifest.lock */,
+				9BB73993253578CA00295C47 /* Sources */,
+				9BB73994253578CA00295C47 /* Frameworks */,
+				9BB73995253578CA00295C47 /* Resources */,
+				A1D018DD2C7C0D4C29E44BFE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BB73999253578CA00295C47 /* PBXTargetDependency */,
+			);
+			name = MobonSdkSampleUITests;
+			productName = MobonSdkSampleUITests;
+			productReference = 9BB73997253578CA00295C47 /* MobonSdkSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BB7396E253578C900295C47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					9BB73975253578C900295C47 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					9BB7398B253578CA00295C47 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 9BB73975253578C900295C47;
+					};
+					9BB73996253578CA00295C47 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 9BB73975253578C900295C47;
+					};
+				};
+			};
+			buildConfigurationList = 9BB73971253578C900295C47 /* Build configuration list for PBXProject "MobonSdkSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BB7396D253578C900295C47;
+			productRefGroup = 9BB73977253578C900295C47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BB73975253578C900295C47 /* MobonSdkSample */,
+				9BB7398B253578CA00295C47 /* MobonSdkSampleTests */,
+				9BB73996253578CA00295C47 /* MobonSdkSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BB73974253578C900295C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB73986253578CA00295C47 /* LaunchScreen.storyboard in Resources */,
+				9BB73983253578CA00295C47 /* Assets.xcassets in Resources */,
+				9BB73981253578C900295C47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB7398A253578CA00295C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB73995253578CA00295C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		115E183C17BA0E3EE450C72A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample/Pods-MobonSdkSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample/Pods-MobonSdkSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample/Pods-MobonSdkSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91D3AD53F615460EE6CC90FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobonSdkSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1D018DD2C7C0D4C29E44BFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample-MobonSdkSampleUITests/Pods-MobonSdkSample-MobonSdkSampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample-MobonSdkSampleUITests/Pods-MobonSdkSample-MobonSdkSampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample-MobonSdkSampleUITests/Pods-MobonSdkSample-MobonSdkSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D34C902E85819AB7D77F0517 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobonSdkSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6C7DAB4E9F3EFBBD0F23179 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobonSdkSample-MobonSdkSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BB73972253578C900295C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB7397E253578C900295C47 /* ViewController.swift in Sources */,
+				9BB7397A253578C900295C47 /* AppDelegate.swift in Sources */,
+				9BB7397C253578C900295C47 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB73988253578CA00295C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB73991253578CA00295C47 /* MobonSdkSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB73993253578CA00295C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB7399C253578CA00295C47 /* MobonSdkSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BB7398E253578CA00295C47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BB73975253578C900295C47 /* MobonSdkSample */;
+			targetProxy = 9BB7398D253578CA00295C47 /* PBXContainerItemProxy */;
+		};
+		9BB73999253578CA00295C47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BB73975253578C900295C47 /* MobonSdkSample */;
+			targetProxy = 9BB73998253578CA00295C47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BB7397F253578C900295C47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BB73980253578C900295C47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BB73984253578CA00295C47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BB73985253578CA00295C47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BB7399E253578CA00295C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BB7399F253578CA00295C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BB739A1253578CA00295C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50FDA2217E7ED07E1AFEB219 /* Pods-MobonSdkSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R73WZ4FA52;
+				INFOPLIST_FILE = MobonSdkSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enliple.mobonsdk.sample.MobonSdkSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BB739A2253578CA00295C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50713BA77FB637DCBB6F0FAA /* Pods-MobonSdkSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R73WZ4FA52;
+				INFOPLIST_FILE = MobonSdkSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enliple.mobonsdk.sample.MobonSdkSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BB739A4253578CA00295C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6995238F335CDCABB99D7F17 /* Pods-MobonSdkSampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MobonSdkSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enliple.mobonsdk.sample.MobonSdkSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobonSdkSample.app/MobonSdkSample";
+			};
+			name = Debug;
+		};
+		9BB739A5253578CA00295C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D0F25BC32B013517F48A18C /* Pods-MobonSdkSampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MobonSdkSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enliple.mobonsdk.sample.MobonSdkSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobonSdkSample.app/MobonSdkSample";
+			};
+			name = Release;
+		};
+		9BB739A7253578CA00295C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111706C1D0A62D5172594DD1 /* Pods-MobonSdkSample-MobonSdkSampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MobonSdkSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enliple.mobonsdk.sample.MobonSdkSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobonSdkSample;
+			};
+			name = Debug;
+		};
+		9BB739A8253578CA00295C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A20B68F5093CA38C32FF67 /* Pods-MobonSdkSample-MobonSdkSampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MobonSdkSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enliple.mobonsdk.sample.MobonSdkSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobonSdkSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BB73971253578C900295C47 /* Build configuration list for PBXProject "MobonSdkSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB7399E253578CA00295C47 /* Debug */,
+				9BB7399F253578CA00295C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BB739A0253578CA00295C47 /* Build configuration list for PBXNativeTarget "MobonSdkSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB739A1253578CA00295C47 /* Debug */,
+				9BB739A2253578CA00295C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BB739A3253578CA00295C47 /* Build configuration list for PBXNativeTarget "MobonSdkSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB739A4253578CA00295C47 /* Debug */,
+				9BB739A5253578CA00295C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BB739A6253578CA00295C47 /* Build configuration list for PBXNativeTarget "MobonSdkSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB739A7253578CA00295C47 /* Debug */,
+				9BB739A8253578CA00295C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BB7396E253578C900295C47 /* Project object */;
+}
