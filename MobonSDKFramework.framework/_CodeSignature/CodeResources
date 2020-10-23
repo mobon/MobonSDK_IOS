@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		m83g1YLh5dRdQyTlcQsWeZN2CTo=
+		ocAC/NsI0hlID3IjR7YTamkz/lM=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		m83g1YLh5dRdQyTlcQsWeZN2CTo=
+		ocAC/NsI0hlID3IjR7YTamkz/lM=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		xQlwH1PDYRLGOEok6ggint8YbwY=
+		i6MEpx2gedI6NSSJhTUHIVz4PCk=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		xQlwH1PDYRLGOEok6ggint8YbwY=
+		i6MEpx2gedI6NSSJhTUHIVz4PCk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -76,14 +76,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HWskyG3lTCxAE+j6w8Jw7vNh9Fo8KFM57cSX/Jk9v48=
+			7xGJogFbZJtzHULyZmhwK8zImuaAHj0fPS1Evo/RzGo=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HWskyG3lTCxAE+j6w8Jw7vNh9Fo8KFM57cSX/Jk9v48=
+			7xGJogFbZJtzHULyZmhwK8zImuaAHj0fPS1Evo/RzGo=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -97,7 +97,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4khz94OQIS8kK0W524hQQCCEY9/xF5dsjnZdJZMCVw8=
+			dwQlH1FHvFIWMyeaI33Zd2XT4XasTgvFw5bzc+4BL/A=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64.swiftdoc</key>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4khz94OQIS8kK0W524hQQCCEY9/xF5dsjnZdJZMCVw8=
+			dwQlH1FHvFIWMyeaI33Zd2XT4XasTgvFw5bzc+4BL/A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
