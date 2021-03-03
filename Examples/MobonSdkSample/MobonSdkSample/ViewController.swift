@@ -32,7 +32,7 @@ class ViewController: UIViewController,MobonBannerAdViewDelegate,MobonInterstiti
         let bannerView = MobonBannerAdView(frame: CGRect(x: 0, y: view.frame.size.height - 50, width: view.bounds.width, height: 50),mediaCode:MEDIACODE,sCode:UNITID)
          bannerView.rootViewController = self
          bannerView.delegate = self
-        bannerView.setLog = true
+       
          view.addSubview(bannerView)
          bannerView.loadAd()
         
@@ -41,7 +41,7 @@ class ViewController: UIViewController,MobonBannerAdViewDelegate,MobonInterstiti
         interstitialView = MobonInterstitialAdView(mediaCode:MEDIACODE,unitId:UNITID)
         interstitialView?.rootViewController = self
         interstitialView?.delegate = self
-        interstitialView?.setLog = true;
+     
     }
 
 
