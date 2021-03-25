@@ -1,4 +1,0 @@
-framework module MobonSDKFramework {
-  header "MobonSDKFramework-Swift.h"
-  requires objc
-}

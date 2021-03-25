@@ -40,6 +40,18 @@ class ViewController: UIViewController,MobonBannerAdViewDelegate,MobonInterstiti
         interstitialView?.rootViewController = self
         interstitialView?.delegate = self
      
+        
+        let sdkbundle = Bundle.init(path: Bundle.main.path(forResource: "MobonSDKBundle", ofType: "bundle")!)
+        sdkbundle?.load()
+        
+        
+        let image = UIImage.init(named: "img_click_b.png", in: sdkbundle!, compatibleWith: nil)
+        
+        let imageView = UIImageView.init(image: image)
+        self.view.addSubview(imageView)
+        
+        imageView.frame = CGRect.init(x: 50, y: 50, width: 200, height: 200)
+        imageView.contentMode = .scaleAspectFit
     }
 
 
