@@ -20,9 +20,7 @@ class ViewController: UIViewController,MobonBannerAdViewDelegate,MobonInterstiti
     }
     
     @IBAction func interstitalShow(_ sender: Any) {
-        if((interstitialView?.isViewLoaded) != nil){
-            interstitialView?.show()
-        }
+        interstitialView?.show()
     }
     
     override func viewDidLoad() {
@@ -61,13 +59,11 @@ class ViewController: UIViewController,MobonBannerAdViewDelegate,MobonInterstiti
     
     func interstitialDidReceiveAd(_ interstitialAdView: MobonInterstitialAdView) {
         print("interstitialDidReceiveAd")
-        showPopup(controller: self, message: "interstitialDidReceiveAd", seconds: 1.0)
     }
     
     
     func interstitialFailedAd(_ interstitialAdView: MobonInterstitialAdView, _ error: String) {
         print("interstitialFailedAd : \(error)");
-        showPopup(controller: self, message: "interstitialFailedAd : \(error)", seconds: 1.0)
     }
     
     func interstitialClicked(_ interstitialAdView: MobonInterstitialAdView) {
@@ -77,19 +73,5 @@ class ViewController: UIViewController,MobonBannerAdViewDelegate,MobonInterstiti
     func interstitialClose(_ interstitialAdView: MobonInterstitialAdView) {
         print("interstitialClose")
     }
-    
-    func showPopup(controller: UIViewController,message : String, seconds:Double){
-        let alert = UIAlertController(title: nil, message: message, preferredStyle: .alert)
-        alert.view.backgroundColor = UIColor.black
-        alert.view.alpha = 0.9
-        alert.view.layer.cornerRadius = 15
-        
-        controller.present(alert,animated: true)
-        
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + seconds){
-            alert.dismiss(animated: true)
-        }
-    }
-    
 }
 

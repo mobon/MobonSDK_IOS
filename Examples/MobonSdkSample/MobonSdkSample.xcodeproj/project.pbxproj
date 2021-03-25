@@ -179,7 +179,7 @@
 				9BB73972253578C900295C47 /* Sources */,
 				9BB73973253578C900295C47 /* Frameworks */,
 				9BB73974253578C900295C47 /* Resources */,
-				115E183C17BA0E3EE450C72A /* [CP] Embed Pods Frameworks */,
+				1AFA4750D0A949D6D8E719A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,7 +217,7 @@
 				9BB73993253578CA00295C47 /* Sources */,
 				9BB73994253578CA00295C47 /* Frameworks */,
 				9BB73995253578CA00295C47 /* Resources */,
-				A1D018DD2C7C0D4C29E44BFE /* [CP] Embed Pods Frameworks */,
+				21D3D712E219D8E387CB64A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,21 +299,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		115E183C17BA0E3EE450C72A /* [CP] Embed Pods Frameworks */ = {
+		1AFA4750D0A949D6D8E719A7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample/Pods-MobonSdkSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample/Pods-MobonSdkSample-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample/Pods-MobonSdkSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample/Pods-MobonSdkSample-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample/Pods-MobonSdkSample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample/Pods-MobonSdkSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21D3D712E219D8E387CB64A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample-MobonSdkSampleUITests/Pods-MobonSdkSample-MobonSdkSampleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample-MobonSdkSampleUITests/Pods-MobonSdkSample-MobonSdkSampleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample-MobonSdkSampleUITests/Pods-MobonSdkSample-MobonSdkSampleUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		91D3AD53F615460EE6CC90FE /* [CP] Check Pods Manifest.lock */ = {
@@ -336,23 +353,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A1D018DD2C7C0D4C29E44BFE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample-MobonSdkSampleUITests/Pods-MobonSdkSample-MobonSdkSampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample-MobonSdkSampleUITests/Pods-MobonSdkSample-MobonSdkSampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample-MobonSdkSampleUITests/Pods-MobonSdkSample-MobonSdkSampleUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D34C902E85819AB7D77F0517 /* [CP] Check Pods Manifest.lock */ = {
