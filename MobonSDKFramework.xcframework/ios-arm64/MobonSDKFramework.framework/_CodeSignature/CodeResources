@@ -16,18 +16,6 @@
 		<data>
 		XquYv3wFHmf64O/XErl67CYXChg=
 		</data>
-		<key>MobonSDKBundle.bundle/Assets.car</key>
-		<data>
-		stkFuPDNjcbIV4RLettTzQsqXY0=
-		</data>
-		<key>MobonSDKBundle.bundle/Info.plist</key>
-		<data>
-		KnUcMw1v236ISEg6ovhsFT3g2JM=
-		</data>
-		<key>MobonSDKBundle.bundle/MobonSDKBundle</key>
-		<data>
-		ZNebgWqmrmxn+FVNJVzvoESFp38=
-		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
 		AwQ2fCF4wskUaiuX5bWSpnPyEtI=
@@ -79,39 +67,6 @@
 			<key>hash2</key>
 			<data>
 			kMojWeMMi6Pn86JcUdSgTcpSzPVp534/deUOZJsqtEg=
-			</data>
-		</dict>
-		<key>MobonSDKBundle.bundle/Assets.car</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			stkFuPDNjcbIV4RLettTzQsqXY0=
-			</data>
-			<key>hash2</key>
-			<data>
-			TqT4O8JirwzhMUSTMZv2EoHNwoCt2VQDoCYgBWF+oqI=
-			</data>
-		</dict>
-		<key>MobonSDKBundle.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			KnUcMw1v236ISEg6ovhsFT3g2JM=
-			</data>
-			<key>hash2</key>
-			<data>
-			Dswoe0Mg+hW8qG91/XeMbrDWQ0AwLqbg4w5lsxYNepw=
-			</data>
-		</dict>
-		<key>MobonSDKBundle.bundle/MobonSDKBundle</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZNebgWqmrmxn+FVNJVzvoESFp38=
-			</data>
-			<key>hash2</key>
-			<data>
-			/imv6SfwKB6u7SgNoCKl/MB/wOJdmlnEJWWsOOVhEWs=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>

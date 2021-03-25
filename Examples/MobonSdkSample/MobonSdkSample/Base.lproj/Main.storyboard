@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,18 +17,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mobon SDK Sample" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qdx-bw-WIh">
-                                <rect key="frame" x="85" y="70" width="244" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobon SDK Sample" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qdx-bw-WIh">
+                                <rect key="frame" x="90" y="70" width="234" height="50"/>
                                 <accessibility key="accessibilityConfiguration" label="Mbon SDK Sample"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="9UF-JC-3s5"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Afv-rw-8iL" userLabel="load">
-                                <rect key="frame" x="145" y="179" width="125" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Afv-rw-8iL" userLabel="load">
+                                <rect key="frame" x="100" y="161" width="214" height="52"/>
                                 <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="fXf-Ba-F60"/>
+                                </constraints>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <size key="titleShadowOffset" width="3" height="3"/>
                                 <state key="normal" title="interstitial Load">
@@ -37,11 +42,13 @@
                                     <action selector="intertstitialLoad:" destination="BYZ-38-t0r" eventType="touchDown" id="bzW-Rc-WVy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kr-J9-3de" userLabel="show">
-                                <rect key="frame" x="145" y="259" width="125" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kr-J9-3de" userLabel="show">
+                                <rect key="frame" x="100" y="243" width="214" height="52"/>
                                 <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="dJk-Uh-tgs"/>
+                                </constraints>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <size key="titleShadowOffset" width="3" height="3"/>
                                 <state key="normal" title="interstitial show">
@@ -54,6 +61,20 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qdx-bw-WIh" secondAttribute="trailing" constant="90" id="DAQ-g0-kw6"/>
+                            <constraint firstItem="qdx-bw-WIh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="M6L-Yb-njV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6kr-J9-3de" secondAttribute="trailing" constant="100" id="SWg-Vl-EEG"/>
+                            <constraint firstItem="qdx-bw-WIh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="Vq9-a4-S6N"/>
+                            <constraint firstItem="qdx-bw-WIh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="Xnd-x3-ozY"/>
+                            <constraint firstItem="Afv-rw-8iL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bJf-uY-8dT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Afv-rw-8iL" secondAttribute="trailing" constant="100" id="cka-ha-DQq"/>
+                            <constraint firstItem="6kr-J9-3de" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="es2-MB-pbz"/>
+                            <constraint firstItem="Afv-rw-8iL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="fLG-du-9BL"/>
+                            <constraint firstItem="6kr-J9-3de" firstAttribute="top" secondItem="Afv-rw-8iL" secondAttribute="bottom" constant="30" id="ggx-CT-nog"/>
+                            <constraint firstItem="Afv-rw-8iL" firstAttribute="top" secondItem="qdx-bw-WIh" secondAttribute="bottom" constant="41" id="uZX-p5-xpI"/>
+                            <constraint firstItem="6kr-J9-3de" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="zMd-fw-Xob"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

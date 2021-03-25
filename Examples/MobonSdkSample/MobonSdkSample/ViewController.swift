@@ -8,6 +8,8 @@
 import UIKit
 import MobonSDKFramework
 
+import AppTrackingTransparency
+
 class ViewController: UIViewController,MobonBannerAdViewDelegate,MobonInterstitialAdViewDelegate {
 
     let MEDIACODE : String = "mobon"
@@ -32,26 +34,22 @@ class ViewController: UIViewController,MobonBannerAdViewDelegate,MobonInterstiti
          bannerView.delegate = self
        
          view.addSubview(bannerView)
-         bannerView.loadAd()
         
+        if #available(iOS 14, *) {
+            ATTrackingManager.requestTrackingAuthorization { (status) in
+                if status == .authorized {
+                    bannerView.loadAd()
+                }
+            }
+        }
+        else {
+            bannerView.loadAd()
+        }
         
         
         interstitialView = MobonInterstitialAdView(mediaCode:MEDIACODE,unitId:UNITID)
         interstitialView?.rootViewController = self
         interstitialView?.delegate = self
-     
-        
-        let sdkbundle = Bundle.init(path: Bundle.main.path(forResource: "MobonSDKBundle", ofType: "bundle")!)
-        sdkbundle?.load()
-        
-        
-        let image = UIImage.init(named: "img_click_b.png", in: sdkbundle!, compatibleWith: nil)
-        
-        let imageView = UIImageView.init(image: image)
-        self.view.addSubview(imageView)
-        
-        imageView.frame = CGRect.init(x: 50, y: 50, width: 200, height: 200)
-        imageView.contentMode = .scaleAspectFit
     }
 
 
