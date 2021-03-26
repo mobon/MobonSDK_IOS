@@ -17,6 +17,7 @@ public enum MOPopupType : Swift.Int {
   }
 }
 public protocol MobonInterstitialAdViewDelegate {
+  func interstitialAdNotLoaded(_ interstitialAdView: MobonSDKFramework.MobonInterstitialAdView)
   func interstitialDidReceiveAd(_ interstitialAdView: MobonSDKFramework.MobonInterstitialAdView)
   func interstitialFailedAd(_ interstitialAdView: MobonSDKFramework.MobonInterstitialAdView, _ error: Swift.String)
   func interstitialClicked(_ interstitialAdView: MobonSDKFramework.MobonInterstitialAdView)
@@ -25,6 +26,9 @@ public protocol MobonInterstitialAdViewDelegate {
 @objc @_hasMissingDesignatedInitializers public class MobonInterstitialAdView : UIKit.UIViewController {
   public var delegate: MobonSDKFramework.MobonInterstitialAdViewDelegate?
   public var rootViewController: UIKit.UIViewController?
+  public var isADLoaded: Swift.Bool {
+    get
+  }
   @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
     @objc get
   }
@@ -80,6 +84,12 @@ public enum MOImageColorsQuality : CoreGraphics.CGFloat {
 extension UIImage {
   public func getColors(quality: MobonSDKFramework.MOImageColorsQuality = .high, _ completion: @escaping (MobonSDKFramework.MOImageColors?) -> Swift.Void)
   public func getColors(quality: MobonSDKFramework.MOImageColorsQuality = .high) -> MobonSDKFramework.MOImageColors?
+}
+@_hasMissingDesignatedInitializers public class MobonSDKInfo {
+  public static var version: Swift.String {
+    get
+  }
+  @objc deinit
 }
 extension MobonSDKFramework.MOPopupType : Swift.Equatable {}
 extension MobonSDKFramework.MOPopupType : Swift.Hashable {}
