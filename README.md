@@ -49,8 +49,11 @@
 
 ##### 1. 업데이이트 Info.plist
 ##### 앱이 사용자 또는 장치를 추적하기 위해 데이터 권한을 요청하는 이유를 사용자에게 알리는 메세지를 추가해야 합니다.
-###### <key> NSUserTrackingUsageDescription </key>
-###### <string> 맞춤형 광고 제공을 위해 사용자의 데이터가 사용됩니다. </string>
+```java
+<key> NSUserTrackingUsageDescription </key>
+<string> 맞춤형 광고 제공을 위해 사용자의 데이터가 사용됩니다. </string>
+```
+
 ##### 2. ATTrackingManager 코드 적용
 ```swift
 if #available(iOS 14, *) {
