@@ -3,10 +3,13 @@
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MobonSDKFramework
 import AdSupport
 import AppTrackingTransparency
+import CoreTelephony
 import Foundation
 import ImageIO
+import OSLog
 import Swift
 import UIKit
+import WebKit
 public enum MOPopupType : Swift.Int {
   case normal
   case full

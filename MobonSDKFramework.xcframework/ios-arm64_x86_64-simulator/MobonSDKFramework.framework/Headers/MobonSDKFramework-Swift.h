@@ -219,6 +219,9 @@ SWIFT_CLASS("_TtC17MobonSDKFramework17MobonBannerAdView")
 
 
 
+
+
+
 @class NSBundle;
 
 SWIFT_CLASS("_TtC17MobonSDKFramework23MobonInterstitialAdView")
@@ -231,6 +234,7 @@ SWIFT_CLASS("_TtC17MobonSDKFramework23MobonInterstitialAdView")
 - (void)viewWillDisappear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
+
 
 
 
@@ -468,6 +472,9 @@ SWIFT_CLASS("_TtC17MobonSDKFramework17MobonBannerAdView")
 
 
 
+
+
+
 @class NSBundle;
 
 SWIFT_CLASS("_TtC17MobonSDKFramework23MobonInterstitialAdView")
@@ -480,6 +487,7 @@ SWIFT_CLASS("_TtC17MobonSDKFramework23MobonInterstitialAdView")
 - (void)viewWillDisappear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
+
 
 
 
