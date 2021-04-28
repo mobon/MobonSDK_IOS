@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YCwyWy6TAL9sJd2rRG/s/IBv01U=
+		gh11dEK1TukAwibxZlgBHf+084g=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xGT8rQjNfQowIynbJAssyG7GEio=
+		Eoi3GPe1qaK1btisSf7pdxfbVZM=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		xGT8rQjNfQowIynbJAssyG7GEio=
+		Eoi3GPe1qaK1btisSf7pdxfbVZM=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		u2aRk9HN+gP9pXLEFS34sJqLdzk=
+		wcGybCFHMns8UyKpE0WnOP4F2TQ=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		u2aRk9HN+gP9pXLEFS34sJqLdzk=
+		wcGybCFHMns8UyKpE0WnOP4F2TQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -119,11 +119,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xGT8rQjNfQowIynbJAssyG7GEio=
+			Eoi3GPe1qaK1btisSf7pdxfbVZM=
 			</data>
 			<key>hash2</key>
 			<data>
-			w5po6v2YMtwEKBSZcJ49AdVz45Me8CKnkM82ZAj2Y/0=
+			Ps5hYrHbQCU3NZE8p0XKTmQr8YbBU93kw/X57wZzzOA=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64.swiftdoc</key>
@@ -152,11 +152,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xGT8rQjNfQowIynbJAssyG7GEio=
+			Eoi3GPe1qaK1btisSf7pdxfbVZM=
 			</data>
 			<key>hash2</key>
 			<data>
-			w5po6v2YMtwEKBSZcJ49AdVz45Me8CKnkM82ZAj2Y/0=
+			Ps5hYrHbQCU3NZE8p0XKTmQr8YbBU93kw/X57wZzzOA=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -185,11 +185,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			u2aRk9HN+gP9pXLEFS34sJqLdzk=
+			wcGybCFHMns8UyKpE0WnOP4F2TQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			KexP5IqNPVlngf21OfFu7SgDZbdxIVBSBMcB+0SYD9w=
+			IVqX0+4OoCw4xbUdfSmcDLhZ7nOT9EONtP8iIxsmdmk=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/x86_64.swiftdoc</key>
@@ -218,11 +218,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			u2aRk9HN+gP9pXLEFS34sJqLdzk=
+			wcGybCFHMns8UyKpE0WnOP4F2TQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			KexP5IqNPVlngf21OfFu7SgDZbdxIVBSBMcB+0SYD9w=
+			IVqX0+4OoCw4xbUdfSmcDLhZ7nOT9EONtP8iIxsmdmk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
