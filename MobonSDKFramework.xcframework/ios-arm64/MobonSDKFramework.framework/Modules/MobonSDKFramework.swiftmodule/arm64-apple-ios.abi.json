@@ -1,0 +1,4388 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ImageIO",
+        "printedName": "ImageIO",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MOBannerType",
+        "printedName": "MOBannerType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Banner320x50",
+            "printedName": "Banner320x50",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobonSDKFramework.MOBannerType.Type) -> MobonSDKFramework.MOBannerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MOBannerType",
+                    "printedName": "MobonSDKFramework.MOBannerType",
+                    "usr": "c:@M@MobonSDKFramework@E@MOBannerType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobonSDKFramework.MOBannerType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MOBannerType",
+                        "printedName": "MobonSDKFramework.MOBannerType",
+                        "usr": "c:@M@MobonSDKFramework@E@MOBannerType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MobonSDKFramework@E@MOBannerType@MOBannerTypeBanner320x50",
+            "mangledName": "$s17MobonSDKFramework12MOBannerTypeO12Banner320x50yA2CmF",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "Banner320x100",
+            "printedName": "Banner320x100",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobonSDKFramework.MOBannerType.Type) -> MobonSDKFramework.MOBannerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MOBannerType",
+                    "printedName": "MobonSDKFramework.MOBannerType",
+                    "usr": "c:@M@MobonSDKFramework@E@MOBannerType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobonSDKFramework.MOBannerType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MOBannerType",
+                        "printedName": "MobonSDKFramework.MOBannerType",
+                        "usr": "c:@M@MobonSDKFramework@E@MOBannerType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MobonSDKFramework@E@MOBannerType@MOBannerTypeBanner320x100",
+            "mangledName": "$s17MobonSDKFramework12MOBannerTypeO13Banner320x100yA2CmF",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobonSDKFramework.MOBannerType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MOBannerType",
+                    "printedName": "MobonSDKFramework.MOBannerType",
+                    "usr": "c:@M@MobonSDKFramework@E@MOBannerType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17MobonSDKFramework12MOBannerTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s17MobonSDKFramework12MOBannerTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "MobonSDKFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MobonSDKFramework12MOBannerTypeO8rawValueSivp",
+            "mangledName": "$s17MobonSDKFramework12MOBannerTypeO8rawValueSivp",
+            "moduleName": "MobonSDKFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework12MOBannerTypeO8rawValueSivg",
+                "mangledName": "$s17MobonSDKFramework12MOBannerTypeO8rawValueSivg",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@MobonSDKFramework@E@MOBannerType",
+        "mangledName": "$s17MobonSDKFramework12MOBannerTypeO",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MOPopupType",
+        "printedName": "MOPopupType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "normal",
+            "printedName": "normal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobonSDKFramework.MOPopupType.Type) -> MobonSDKFramework.MOPopupType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MOPopupType",
+                    "printedName": "MobonSDKFramework.MOPopupType",
+                    "usr": "c:@M@MobonSDKFramework@E@MOPopupType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobonSDKFramework.MOPopupType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MOPopupType",
+                        "printedName": "MobonSDKFramework.MOPopupType",
+                        "usr": "c:@M@MobonSDKFramework@E@MOPopupType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MobonSDKFramework@E@MOPopupType@MOPopupTypeNormal",
+            "mangledName": "$s17MobonSDKFramework11MOPopupTypeO6normalyA2CmF",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "full",
+            "printedName": "full",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobonSDKFramework.MOPopupType.Type) -> MobonSDKFramework.MOPopupType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MOPopupType",
+                    "printedName": "MobonSDKFramework.MOPopupType",
+                    "usr": "c:@M@MobonSDKFramework@E@MOPopupType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobonSDKFramework.MOPopupType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MOPopupType",
+                        "printedName": "MobonSDKFramework.MOPopupType",
+                        "usr": "c:@M@MobonSDKFramework@E@MOPopupType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MobonSDKFramework@E@MOPopupType@MOPopupTypeFull",
+            "mangledName": "$s17MobonSDKFramework11MOPopupTypeO4fullyA2CmF",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobonSDKFramework.MOPopupType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MOPopupType",
+                    "printedName": "MobonSDKFramework.MOPopupType",
+                    "usr": "c:@M@MobonSDKFramework@E@MOPopupType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17MobonSDKFramework11MOPopupTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s17MobonSDKFramework11MOPopupTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "MobonSDKFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MobonSDKFramework11MOPopupTypeO8rawValueSivp",
+            "mangledName": "$s17MobonSDKFramework11MOPopupTypeO8rawValueSivp",
+            "moduleName": "MobonSDKFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework11MOPopupTypeO8rawValueSivg",
+                "mangledName": "$s17MobonSDKFramework11MOPopupTypeO8rawValueSivg",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@MobonSDKFramework@E@MOPopupType",
+        "mangledName": "$s17MobonSDKFramework11MOPopupTypeO",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MobonInterstitialAdViewDelegate",
+        "printedName": "MobonInterstitialAdViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "interstitialAdNotLoaded",
+            "printedName": "interstitialAdNotLoaded(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobonInterstitialAdView",
+                "printedName": "MobonSDKFramework.MobonInterstitialAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobonSDKFramework@objc(pl)MobonInterstitialAdViewDelegate(im)interstitialAdNotLoaded:",
+            "mangledName": "$s17MobonSDKFramework0A26InterstitialAdViewDelegateP012interstitialD9NotLoadedyyAA0acdE0CF",
+            "moduleName": "MobonSDKFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobonSDKFramework.MobonInterstitialAdViewDelegate>",
+            "sugared_genericSig": "<Self where Self : MobonSDKFramework.MobonInterstitialAdViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialDidReceiveAd",
+            "printedName": "interstitialDidReceiveAd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobonInterstitialAdView",
+                "printedName": "MobonSDKFramework.MobonInterstitialAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobonSDKFramework@objc(pl)MobonInterstitialAdViewDelegate(im)interstitialDidReceiveAd:",
+            "mangledName": "$s17MobonSDKFramework0A26InterstitialAdViewDelegateP022interstitialDidReceiveD0yyAA0acdE0CF",
+            "moduleName": "MobonSDKFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobonSDKFramework.MobonInterstitialAdViewDelegate>",
+            "sugared_genericSig": "<Self where Self : MobonSDKFramework.MobonInterstitialAdViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialFailedAd",
+            "printedName": "interstitialFailedAd(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobonInterstitialAdView",
+                "printedName": "MobonSDKFramework.MobonInterstitialAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobonSDKFramework@objc(pl)MobonInterstitialAdViewDelegate(im)interstitialFailedAd::",
+            "mangledName": "$s17MobonSDKFramework0A26InterstitialAdViewDelegateP018interstitialFailedD0yyAA0acdE0C_SStF",
+            "moduleName": "MobonSDKFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobonSDKFramework.MobonInterstitialAdViewDelegate>",
+            "sugared_genericSig": "<Self where Self : MobonSDKFramework.MobonInterstitialAdViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialClicked",
+            "printedName": "interstitialClicked(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobonInterstitialAdView",
+                "printedName": "MobonSDKFramework.MobonInterstitialAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobonSDKFramework@objc(pl)MobonInterstitialAdViewDelegate(im)interstitialClicked:",
+            "mangledName": "$s17MobonSDKFramework0A26InterstitialAdViewDelegateP19interstitialClickedyyAA0acdE0CF",
+            "moduleName": "MobonSDKFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobonSDKFramework.MobonInterstitialAdViewDelegate>",
+            "sugared_genericSig": "<Self where Self : MobonSDKFramework.MobonInterstitialAdViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialClose",
+            "printedName": "interstitialClose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobonInterstitialAdView",
+                "printedName": "MobonSDKFramework.MobonInterstitialAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobonSDKFramework@objc(pl)MobonInterstitialAdViewDelegate(im)interstitialClose:",
+            "mangledName": "$s17MobonSDKFramework0A26InterstitialAdViewDelegateP17interstitialCloseyyAA0acdE0CF",
+            "moduleName": "MobonSDKFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobonSDKFramework.MobonInterstitialAdViewDelegate>",
+            "sugared_genericSig": "<Self where Self : MobonSDKFramework.MobonInterstitialAdViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@MobonSDKFramework@objc(pl)MobonInterstitialAdViewDelegate",
+        "mangledName": "$s17MobonSDKFramework0A26InterstitialAdViewDelegateP",
+        "moduleName": "MobonSDKFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MobonInterstitialAdView",
+        "printedName": "MobonInterstitialAdView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobonSDKFramework.MobonInterstitialAdViewDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobonInterstitialAdViewDelegate",
+                    "printedName": "MobonSDKFramework.MobonInterstitialAdViewDelegate",
+                    "usr": "c:@M@MobonSDKFramework@objc(pl)MobonInterstitialAdViewDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(py)delegate",
+            "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC8delegateAA0acdE8Delegate_pSgvp",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MobonSDKFramework.MobonInterstitialAdViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobonInterstitialAdViewDelegate",
+                        "printedName": "MobonSDKFramework.MobonInterstitialAdViewDelegate",
+                        "usr": "c:@M@MobonSDKFramework@objc(pl)MobonInterstitialAdViewDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(im)delegate",
+                "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC8delegateAA0acdE8Delegate_pSgvg",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MobonSDKFramework.MobonInterstitialAdViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobonInterstitialAdViewDelegate",
+                        "printedName": "MobonSDKFramework.MobonInterstitialAdViewDelegate",
+                        "usr": "c:@M@MobonSDKFramework@objc(pl)MobonInterstitialAdViewDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(im)setDelegate:",
+                "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC8delegateAA0acdE8Delegate_pSgvs",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework0A18InterstitialAdViewC8delegateAA0acdE8Delegate_pSgvM",
+                "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC8delegateAA0acdE8Delegate_pSgvM",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rootViewController",
+            "printedName": "rootViewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(py)rootViewController",
+            "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC04rootE10ControllerSo06UIViewG0CSgvp",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(im)rootViewController",
+                "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC04rootE10ControllerSo06UIViewG0CSgvg",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(im)setRootViewController:",
+                "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC04rootE10ControllerSo06UIViewG0CSgvs",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework0A18InterstitialAdViewC04rootE10ControllerSo06UIViewG0CSgvM",
+                "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC04rootE10ControllerSo06UIViewG0CSgvM",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isADLoaded",
+            "printedName": "isADLoaded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(py)isADLoaded",
+            "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC10isADLoadedSbvp",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(im)isADLoaded",
+                "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC10isADLoadedSbvg",
+                "moduleName": "MobonSDKFramework",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(py)supportedInterfaceOrientations",
+            "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "MobonSDKFramework",
+            "overriding": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(im)supportedInterfaceOrientations",
+                "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "MobonSDKFramework",
+                "overriding": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "preferredInterfaceOrientationForPresentation",
+            "printedName": "preferredInterfaceOrientationForPresentation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientation",
+                "printedName": "UIKit.UIInterfaceOrientation",
+                "usr": "c:@E@UIInterfaceOrientation"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(py)preferredInterfaceOrientationForPresentation",
+            "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC44preferredInterfaceOrientationForPresentationSo011UIInterfaceH0Vvp",
+            "moduleName": "MobonSDKFramework",
+            "overriding": true,
+            "objc_name": "preferredInterfaceOrientationForPresentation",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientation",
+                    "printedName": "UIKit.UIInterfaceOrientation",
+                    "usr": "c:@E@UIInterfaceOrientation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(im)preferredInterfaceOrientationForPresentation",
+                "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC44preferredInterfaceOrientationForPresentationSo011UIInterfaceH0Vvg",
+                "moduleName": "MobonSDKFramework",
+                "overriding": true,
+                "objc_name": "preferredInterfaceOrientationForPresentation",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(mediaCode:unitId:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobonInterstitialAdView",
+                "printedName": "MobonSDKFramework.MobonInterstitialAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MOPopupType",
+                "printedName": "MobonSDKFramework.MOPopupType",
+                "hasDefaultArg": true,
+                "usr": "c:@M@MobonSDKFramework@E@MOPopupType"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(im)initWithMediaCode:unitId:type:",
+            "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC9mediaCode6unitId4typeACSS_SSAA11MOPopupTypeOtcfc",
+            "moduleName": "MobonSDKFramework",
+            "objc_name": "initWithMediaCode:unitId:type:",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(im)viewDidLoad",
+            "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC11viewDidLoadyyF",
+            "moduleName": "MobonSDKFramework",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(im)viewWillAppear:",
+            "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC14viewWillAppearyySbF",
+            "moduleName": "MobonSDKFramework",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(im)viewWillDisappear:",
+            "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC17viewWillDisappearyySbF",
+            "moduleName": "MobonSDKFramework",
+            "overriding": true,
+            "objc_name": "viewWillDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAd",
+            "printedName": "loadAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(im)loadAd",
+            "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC04loadD0yyF",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(im)show",
+            "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC4showyyF",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismiss",
+            "printedName": "dismiss()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(im)dismiss",
+            "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC7dismissyyF",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobonInterstitialAdView",
+                "printedName": "MobonSDKFramework.MobonInterstitialAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView(im)initWithNibName:bundle:",
+            "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "MobonSDKFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView",
+        "mangledName": "$s17MobonSDKFramework0A18InterstitialAdViewC",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MobonBannerAdViewDelegate",
+        "printedName": "MobonBannerAdViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "adViewDidReceiveAd",
+            "printedName": "adViewDidReceiveAd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobonBannerAdView",
+                "printedName": "MobonSDKFramework.MobonBannerAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobonSDKFramework@objc(pl)MobonBannerAdViewDelegate(im)adViewDidReceiveAd:",
+            "mangledName": "$s17MobonSDKFramework0A20BannerAdViewDelegateP02ade10DidReceiveD0yyAA0acdE0CF",
+            "moduleName": "MobonSDKFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobonSDKFramework.MobonBannerAdViewDelegate>",
+            "sugared_genericSig": "<Self where Self : MobonSDKFramework.MobonBannerAdViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adViewFailedAd",
+            "printedName": "adViewFailedAd(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobonBannerAdView",
+                "printedName": "MobonSDKFramework.MobonBannerAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobonSDKFramework@objc(pl)MobonBannerAdViewDelegate(im)adViewFailedAd::",
+            "mangledName": "$s17MobonSDKFramework0A20BannerAdViewDelegateP02ade6FailedD0yyAA0acdE0C_SStF",
+            "moduleName": "MobonSDKFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobonSDKFramework.MobonBannerAdViewDelegate>",
+            "sugared_genericSig": "<Self where Self : MobonSDKFramework.MobonBannerAdViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adViewClicked",
+            "printedName": "adViewClicked(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobonBannerAdView",
+                "printedName": "MobonSDKFramework.MobonBannerAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobonSDKFramework@objc(pl)MobonBannerAdViewDelegate(im)adViewClicked:",
+            "mangledName": "$s17MobonSDKFramework0A20BannerAdViewDelegateP02adE7ClickedyyAA0acdE0CF",
+            "moduleName": "MobonSDKFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobonSDKFramework.MobonBannerAdViewDelegate>",
+            "sugared_genericSig": "<Self where Self : MobonSDKFramework.MobonBannerAdViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@MobonSDKFramework@objc(pl)MobonBannerAdViewDelegate",
+        "mangledName": "$s17MobonSDKFramework0A20BannerAdViewDelegateP",
+        "moduleName": "MobonSDKFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MobonBannerAdView",
+        "printedName": "MobonBannerAdView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bannerType",
+            "printedName": "bannerType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MOBannerType",
+                "printedName": "MobonSDKFramework.MOBannerType",
+                "usr": "c:@M@MobonSDKFramework@E@MOBannerType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(py)bannerType",
+            "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC10bannerTypeAA08MOBannerG0Ovp",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MOBannerType",
+                    "printedName": "MobonSDKFramework.MOBannerType",
+                    "usr": "c:@M@MobonSDKFramework@E@MOBannerType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(im)bannerType",
+                "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC10bannerTypeAA08MOBannerG0Ovg",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MOBannerType",
+                    "printedName": "MobonSDKFramework.MOBannerType",
+                    "usr": "c:@M@MobonSDKFramework@E@MOBannerType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(im)setBannerType:",
+                "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC10bannerTypeAA08MOBannerG0Ovs",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework0A12BannerAdViewC10bannerTypeAA08MOBannerG0OvM",
+                "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC10bannerTypeAA08MOBannerG0OvM",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fillMode",
+            "printedName": "fillMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(py)fillMode",
+            "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC8fillModeSbvp",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(im)fillMode",
+                "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC8fillModeSbvg",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(im)setFillMode:",
+                "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC8fillModeSbvs",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework0A12BannerAdViewC8fillModeSbvM",
+                "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC8fillModeSbvM",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobonSDKFramework.MobonBannerAdViewDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobonBannerAdViewDelegate",
+                    "printedName": "MobonSDKFramework.MobonBannerAdViewDelegate",
+                    "usr": "c:@M@MobonSDKFramework@objc(pl)MobonBannerAdViewDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(py)delegate",
+            "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC8delegateAA0acdE8Delegate_pSgvp",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MobonSDKFramework.MobonBannerAdViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobonBannerAdViewDelegate",
+                        "printedName": "MobonSDKFramework.MobonBannerAdViewDelegate",
+                        "usr": "c:@M@MobonSDKFramework@objc(pl)MobonBannerAdViewDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(im)delegate",
+                "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC8delegateAA0acdE8Delegate_pSgvg",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MobonSDKFramework.MobonBannerAdViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobonBannerAdViewDelegate",
+                        "printedName": "MobonSDKFramework.MobonBannerAdViewDelegate",
+                        "usr": "c:@M@MobonSDKFramework@objc(pl)MobonBannerAdViewDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(im)setDelegate:",
+                "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC8delegateAA0acdE8Delegate_pSgvs",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework0A12BannerAdViewC8delegateAA0acdE8Delegate_pSgvM",
+                "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC8delegateAA0acdE8Delegate_pSgvM",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rootViewController",
+            "printedName": "rootViewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(py)rootViewController",
+            "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC04rootE10ControllerSo06UIViewG0CSgvp",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(im)rootViewController",
+                "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC04rootE10ControllerSo06UIViewG0CSgvg",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(im)setRootViewController:",
+                "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC04rootE10ControllerSo06UIViewG0CSgvs",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework0A12BannerAdViewC04rootE10ControllerSo06UIViewG0CSgvM",
+                "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC04rootE10ControllerSo06UIViewG0CSgvM",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "interval",
+            "printedName": "interval",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(py)interval",
+            "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC8intervalSivp",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(im)interval",
+                "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC8intervalSivg",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(im)setInterval:",
+                "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC8intervalSivs",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework0A12BannerAdViewC8intervalSivM",
+                "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC8intervalSivM",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:mediaCode:sCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobonBannerAdView",
+                "printedName": "MobonSDKFramework.MobonBannerAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "hasDefaultArg": true,
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(im)initWithFrame:mediaCode:sCode:",
+            "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC5frame9mediaCode01sH0ACSo6CGRectV_S2Stcfc",
+            "moduleName": "MobonSDKFramework",
+            "objc_name": "initWithFrame:mediaCode:sCode:",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAd",
+            "printedName": "loadAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(im)loadAd",
+            "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC04loadD0yyF",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pauseUpdateAd",
+            "printedName": "pauseUpdateAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(im)pauseUpdateAd",
+            "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC011pauseUpdateD0yyF",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobonBannerAdView",
+                "printedName": "MobonSDKFramework.MobonBannerAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView(im)initWithFrame:",
+            "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "MobonSDKFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView",
+        "mangledName": "$s17MobonSDKFramework0A12BannerAdViewC",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MOImageColors",
+        "printedName": "MOImageColors",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "background",
+            "printedName": "background",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MobonSDKFramework13MOImageColorsV10backgroundSo7UIColorCSgvp",
+            "mangledName": "$s17MobonSDKFramework13MOImageColorsV10backgroundSo7UIColorCSgvp",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework13MOImageColorsV10backgroundSo7UIColorCSgvg",
+                "mangledName": "$s17MobonSDKFramework13MOImageColorsV10backgroundSo7UIColorCSgvg",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework13MOImageColorsV10backgroundSo7UIColorCSgvs",
+                "mangledName": "$s17MobonSDKFramework13MOImageColorsV10backgroundSo7UIColorCSgvs",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework13MOImageColorsV10backgroundSo7UIColorCSgvM",
+                "mangledName": "$s17MobonSDKFramework13MOImageColorsV10backgroundSo7UIColorCSgvM",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "primary",
+            "printedName": "primary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MobonSDKFramework13MOImageColorsV7primarySo7UIColorCSgvp",
+            "mangledName": "$s17MobonSDKFramework13MOImageColorsV7primarySo7UIColorCSgvp",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework13MOImageColorsV7primarySo7UIColorCSgvg",
+                "mangledName": "$s17MobonSDKFramework13MOImageColorsV7primarySo7UIColorCSgvg",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework13MOImageColorsV7primarySo7UIColorCSgvs",
+                "mangledName": "$s17MobonSDKFramework13MOImageColorsV7primarySo7UIColorCSgvs",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework13MOImageColorsV7primarySo7UIColorCSgvM",
+                "mangledName": "$s17MobonSDKFramework13MOImageColorsV7primarySo7UIColorCSgvM",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "secondary",
+            "printedName": "secondary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MobonSDKFramework13MOImageColorsV9secondarySo7UIColorCSgvp",
+            "mangledName": "$s17MobonSDKFramework13MOImageColorsV9secondarySo7UIColorCSgvp",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework13MOImageColorsV9secondarySo7UIColorCSgvg",
+                "mangledName": "$s17MobonSDKFramework13MOImageColorsV9secondarySo7UIColorCSgvg",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework13MOImageColorsV9secondarySo7UIColorCSgvs",
+                "mangledName": "$s17MobonSDKFramework13MOImageColorsV9secondarySo7UIColorCSgvs",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework13MOImageColorsV9secondarySo7UIColorCSgvM",
+                "mangledName": "$s17MobonSDKFramework13MOImageColorsV9secondarySo7UIColorCSgvM",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "detail",
+            "printedName": "detail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MobonSDKFramework13MOImageColorsV6detailSo7UIColorCSgvp",
+            "mangledName": "$s17MobonSDKFramework13MOImageColorsV6detailSo7UIColorCSgvp",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework13MOImageColorsV6detailSo7UIColorCSgvg",
+                "mangledName": "$s17MobonSDKFramework13MOImageColorsV6detailSo7UIColorCSgvg",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework13MOImageColorsV6detailSo7UIColorCSgvs",
+                "mangledName": "$s17MobonSDKFramework13MOImageColorsV6detailSo7UIColorCSgvs",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework13MOImageColorsV6detailSo7UIColorCSgvM",
+                "mangledName": "$s17MobonSDKFramework13MOImageColorsV6detailSo7UIColorCSgvM",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(background:primary:secondary:detail:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MOImageColors",
+                "printedName": "MobonSDKFramework.MOImageColors",
+                "usr": "s:17MobonSDKFramework13MOImageColorsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17MobonSDKFramework13MOImageColorsV10background7primary9secondary6detailACSo7UIColorC_A3Itcfc",
+            "mangledName": "$s17MobonSDKFramework13MOImageColorsV10background7primary9secondary6detailACSo7UIColorC_A3Itcfc",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17MobonSDKFramework13MOImageColorsV",
+        "mangledName": "$s17MobonSDKFramework13MOImageColorsV",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MOImageColorsQuality",
+        "printedName": "MOImageColorsQuality",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "lowest",
+            "printedName": "lowest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobonSDKFramework.MOImageColorsQuality.Type) -> MobonSDKFramework.MOImageColorsQuality",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MOImageColorsQuality",
+                    "printedName": "MobonSDKFramework.MOImageColorsQuality",
+                    "usr": "s:17MobonSDKFramework20MOImageColorsQualityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobonSDKFramework.MOImageColorsQuality.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MOImageColorsQuality",
+                        "printedName": "MobonSDKFramework.MOImageColorsQuality",
+                        "usr": "s:17MobonSDKFramework20MOImageColorsQualityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17MobonSDKFramework20MOImageColorsQualityO6lowestyA2CmF",
+            "mangledName": "$s17MobonSDKFramework20MOImageColorsQualityO6lowestyA2CmF",
+            "moduleName": "MobonSDKFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "low",
+            "printedName": "low",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobonSDKFramework.MOImageColorsQuality.Type) -> MobonSDKFramework.MOImageColorsQuality",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MOImageColorsQuality",
+                    "printedName": "MobonSDKFramework.MOImageColorsQuality",
+                    "usr": "s:17MobonSDKFramework20MOImageColorsQualityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobonSDKFramework.MOImageColorsQuality.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MOImageColorsQuality",
+                        "printedName": "MobonSDKFramework.MOImageColorsQuality",
+                        "usr": "s:17MobonSDKFramework20MOImageColorsQualityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17MobonSDKFramework20MOImageColorsQualityO3lowyA2CmF",
+            "mangledName": "$s17MobonSDKFramework20MOImageColorsQualityO3lowyA2CmF",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "high",
+            "printedName": "high",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobonSDKFramework.MOImageColorsQuality.Type) -> MobonSDKFramework.MOImageColorsQuality",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MOImageColorsQuality",
+                    "printedName": "MobonSDKFramework.MOImageColorsQuality",
+                    "usr": "s:17MobonSDKFramework20MOImageColorsQualityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobonSDKFramework.MOImageColorsQuality.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MOImageColorsQuality",
+                        "printedName": "MobonSDKFramework.MOImageColorsQuality",
+                        "usr": "s:17MobonSDKFramework20MOImageColorsQualityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17MobonSDKFramework20MOImageColorsQualityO4highyA2CmF",
+            "mangledName": "$s17MobonSDKFramework20MOImageColorsQualityO4highyA2CmF",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "highest",
+            "printedName": "highest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobonSDKFramework.MOImageColorsQuality.Type) -> MobonSDKFramework.MOImageColorsQuality",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MOImageColorsQuality",
+                    "printedName": "MobonSDKFramework.MOImageColorsQuality",
+                    "usr": "s:17MobonSDKFramework20MOImageColorsQualityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobonSDKFramework.MOImageColorsQuality.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MOImageColorsQuality",
+                        "printedName": "MobonSDKFramework.MOImageColorsQuality",
+                        "usr": "s:17MobonSDKFramework20MOImageColorsQualityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17MobonSDKFramework20MOImageColorsQualityO7highestyA2CmF",
+            "mangledName": "$s17MobonSDKFramework20MOImageColorsQualityO7highestyA2CmF",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobonSDKFramework.MOImageColorsQuality?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MOImageColorsQuality",
+                    "printedName": "MobonSDKFramework.MOImageColorsQuality",
+                    "usr": "s:17MobonSDKFramework20MOImageColorsQualityO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17MobonSDKFramework20MOImageColorsQualityO8rawValueACSg14CoreFoundation7CGFloatV_tcfc",
+            "mangledName": "$s17MobonSDKFramework20MOImageColorsQualityO8rawValueACSg12CoreGraphics7CGFloatV_tcfc",
+            "moduleName": "MobonSDKFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MobonSDKFramework20MOImageColorsQualityO8rawValue14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s17MobonSDKFramework20MOImageColorsQualityO8rawValue12CoreGraphics7CGFloatVvp",
+            "moduleName": "MobonSDKFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework20MOImageColorsQualityO8rawValue14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s17MobonSDKFramework20MOImageColorsQualityO8rawValue12CoreGraphics7CGFloatVvg",
+                "moduleName": "MobonSDKFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17MobonSDKFramework20MOImageColorsQualityO",
+        "mangledName": "$s17MobonSDKFramework20MOImageColorsQualityO",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "CGFloat",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MobonSDKInfo",
+        "printedName": "MobonSDKInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MobonSDKFramework0A7SDKInfoC7versionSSvpZ",
+            "mangledName": "$s17MobonSDKFramework0A7SDKInfoC7versionSSvpZ",
+            "moduleName": "MobonSDKFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MobonSDKFramework0A7SDKInfoC7versionSSvgZ",
+                "mangledName": "$s17MobonSDKFramework0A7SDKInfoC7versionSSvgZ",
+                "moduleName": "MobonSDKFramework",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17MobonSDKFramework0A7SDKInfoC",
+        "mangledName": "$s17MobonSDKFramework0A7SDKInfoC",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobonSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getColors",
+            "printedName": "getColors(quality:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MOImageColorsQuality",
+                "printedName": "MobonSDKFramework.MOImageColorsQuality",
+                "hasDefaultArg": true,
+                "usr": "s:17MobonSDKFramework20MOImageColorsQualityO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobonSDKFramework.MOImageColors?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MobonSDKFramework.MOImageColors?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MOImageColors",
+                        "printedName": "MobonSDKFramework.MOImageColors",
+                        "usr": "s:17MobonSDKFramework13MOImageColorsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC17MobonSDKFrameworkE9getColors7quality_yAC07MOImageE7QualityO_yAC0gE0VSgctF",
+            "mangledName": "$sSo7UIImageC17MobonSDKFrameworkE9getColors7quality_yAC07MOImageE7QualityO_yAC0gE0VSgctF",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getColors",
+            "printedName": "getColors(quality:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobonSDKFramework.MOImageColors?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MOImageColors",
+                    "printedName": "MobonSDKFramework.MOImageColors",
+                    "usr": "s:17MobonSDKFramework13MOImageColorsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MOImageColorsQuality",
+                "printedName": "MobonSDKFramework.MOImageColorsQuality",
+                "hasDefaultArg": true,
+                "usr": "s:17MobonSDKFramework20MOImageColorsQualityO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC17MobonSDKFrameworkE9getColors7qualityAC07MOImageE0VSgAC0gE7QualityO_tF",
+            "mangledName": "$sSo7UIImageC17MobonSDKFrameworkE9getColors7qualityAC07MOImageE0VSgAC0gE7QualityO_tF",
+            "moduleName": "MobonSDKFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/Extension\/MobonInterstitialAdView+View.swift",
+      "kind": "BooleanLiteral",
+      "offset": 217,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/Extension\/MobonInterstitialAdView+View.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4343,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/Extension\/MobonInterstitialAdView+View.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4370,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/Extension\/MobonInterstitialAdView+View.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4769,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/Extension\/MobonInterstitialAdView+View.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4796,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/WKWebView+Mobon.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 9,
+      "value": "\"cookies\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/TLPaddingLabel.swift",
+      "kind": "FloatLiteral",
+      "offset": 250,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/TLPaddingLabel.swift",
+      "kind": "FloatLiteral",
+      "offset": 300,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/TLPaddingLabel.swift",
+      "kind": "FloatLiteral",
+      "offset": 348,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/TLPaddingLabel.swift",
+      "kind": "FloatLiteral",
+      "offset": 397,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/Extension\/MobonBannerAdView+320x100.swift",
+      "kind": "BooleanLiteral",
+      "offset": 198,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/Extension\/MobonBannerAdView+320x100.swift",
+      "kind": "BooleanLiteral",
+      "offset": 460,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Request\/RequestAD.swift",
+      "kind": "IntegerLiteral",
+      "offset": 241,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Request\/RequestAD.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 31,
+      "value": "\"https:\/\/www.mediacategory.com\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Request\/RequestAD.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 34,
+      "value": "\"http:\/\/img.mobon.net\/ad\/imgfile\/\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Request\/RequestAD.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 27,
+      "value": "\"\/servlet\/adbnMobileBanner\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Request\/RequestAD.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 15,
+      "value": "\"\/servlet\/auid\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Model\/MOBannerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 176,
+      "length": 13,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Model\/MOBannerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 176,
+      "length": 13,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Model\/MOBannerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 256,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Model\/MOBannerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 256,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/Extension\/MobonBannerAdView+320x50.swift",
+      "kind": "BooleanLiteral",
+      "offset": 195,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/Extension\/MobonBannerAdView+320x50.swift",
+      "kind": "BooleanLiteral",
+      "offset": 453,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonWebview.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 10,
+      "value": "\"mobonSDK\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonWebview.swift",
+      "kind": "StringLiteral",
+      "offset": 408,
+      "length": 14,
+      "value": "\"FailCallback\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonWebview.swift",
+      "kind": "StringLiteral",
+      "offset": 481,
+      "length": 17,
+      "value": "\"SuccessCallback\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonWebview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 803,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonWebview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 945,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonWebview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 987,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonWebview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1038,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Model\/AdData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7411,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "Dictionary",
+      "offset": 692,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "Array",
+      "offset": 778,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1199,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1265,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1450,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1515,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1723,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1790,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2011,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2078,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2348,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 2387,
+      "length": 3,
+      "value": "\"X\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2547,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2643,
+      "length": 4,
+      "value": "12.5"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2685,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2914,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2981,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3197,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3264,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3493,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3560,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3783,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3850,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4043,
+      "length": 4,
+      "value": "25.0"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonInterstitialAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 597,
+      "length": 23,
+      "value": "\"MobonSDKFramework.MobonInterstitialAdView\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 540,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "Array",
+      "offset": 718,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 810,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 843,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 892,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 923,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 762,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 982,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1050,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1240,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1305,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1508,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1575,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1734,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1816,
+      "length": 4,
+      "value": "12.0"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1897,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2052,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2132,
+      "length": 4,
+      "value": "12.0"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2213,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 2381,
+      "length": 14,
+      "value": "\"바로가기\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2443,
+      "length": 4,
+      "value": "13.0"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2599,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2631,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2693,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2910,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2977,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3207,
+      "length": 5,
+      "value": "9999"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 17,
+      "value": "\"MobonSDKFramework.MobonBannerAdView\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/UserDefault+Mobon.swift",
+      "kind": "StringLiteral",
+      "offset": 203,
+      "length": 31,
+      "value": "\"UserDefaults_Mobon_SDK_2021__\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/MOLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/MOLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 10,
+      "value": "\"MobonSDK\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/MOLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 570,
+      "length": 21,
+      "value": "\"yyyy-MM-dd HH:mm:ss\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/UIImage+Mobon.swift",
+      "kind": "StringLiteral",
+      "offset": 308,
+      "length": 16,
+      "value": "\"MobonSDKBundle\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/UIImage+Mobon.swift",
+      "kind": "StringLiteral",
+      "offset": 334,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/UIImage+Mobon.swift",
+      "kind": "StringLiteral",
+      "offset": 470,
+      "length": 55,
+      "value": "\"Frameworks\/MobonSDKFramework.framework\/MobonSDKBundle\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/UIImage+Mobon.swift",
+      "kind": "StringLiteral",
+      "offset": 535,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/UIImage+Mobon.swift",
+      "kind": "StringLiteral",
+      "offset": 677,
+      "length": 16,
+      "value": "\"MobonSDKBundle\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/UIImage+Mobon.swift",
+      "kind": "StringLiteral",
+      "offset": 703,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/UIImage+Mobon.swift",
+      "kind": "BooleanLiteral",
+      "offset": 886,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Model\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Model\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Model\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Model\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 342,
+      "length": 4,
+      "value": "\"99\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Model\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 377,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Model\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 411,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Model\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 445,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Model\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 481,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Model\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 515,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/MOImageColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 562,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/MOImageColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 588,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/MOImageColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 617,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/MOImageColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 649,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/MOImageColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 562,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/MOImageColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 588,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/MOImageColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 617,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/MOImageColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 649,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/MOImageColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 562,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/MOImageColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 588,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/MOImageColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 617,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/MOImageColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 649,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Common\/MobonSDKInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 476,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Model\/MobonAD.swift",
+      "kind": "Array",
+      "offset": 158,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

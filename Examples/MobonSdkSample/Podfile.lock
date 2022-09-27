@@ -1,0 +1,16 @@
+PODS:
+  - MobonSDK (0.6.6)
+
+DEPENDENCIES:
+  - MobonSDK
+
+SPEC REPOS:
+  trunk:
+    - MobonSDK
+
+SPEC CHECKSUMS:
+  MobonSDK: 3e40fee8a92b251d8a8491f0213ad41de098e95a
+
+PODFILE CHECKSUM: ffa543ec248d3a8d9a758a01f39ae8a4b3b8fb94
+
+COCOAPODS: 1.10.1

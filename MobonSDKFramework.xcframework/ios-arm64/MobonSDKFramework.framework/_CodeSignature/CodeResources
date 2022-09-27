@@ -10,35 +10,31 @@
 		</data>
 		<key>Headers/MobonSDKFramework-Swift.h</key>
 		<data>
-		Z5SmEe0g6dH0+jto/1+tuWOCBlI=
+		ImB8W7xugNWLZYmz+/mlK3FcmmM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SQ13ieuphR7ZzvGw0DkjxaPzuYU=
+		ha/wjjdH6bG3QE/iIif5+MxK6yk=
+		</data>
+		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		E03jdMyIZKvnE1GdLBLTk7nWGvo=
+		</data>
+		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		MiraMo8yoYNLItwYq7UnALIwcfA=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		a/89i6WbUXKTMAX+YY2eLzue6sw=
+		lIyUHd/6bPOvD6xxga9AxuXyrbs=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		3xELu/EYA4NgfGvxpIJJc2ei4VQ=
+		MiraMo8yoYNLItwYq7UnALIwcfA=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		KMMdG+7fCai3dxxn21JDppIWYz4=
-		</data>
-		<key>Modules/MobonSDKFramework.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		a/89i6WbUXKTMAX+YY2eLzue6sw=
-		</data>
-		<key>Modules/MobonSDKFramework.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		3xELu/EYA4NgfGvxpIJJc2ei4VQ=
-		</data>
-		<key>Modules/MobonSDKFramework.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		KMMdG+7fCai3dxxn21JDppIWYz4=
+		6MZQHGJA8I5CfiQgzFGGfqLQzQM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,77 +58,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z5SmEe0g6dH0+jto/1+tuWOCBlI=
+			ImB8W7xugNWLZYmz+/mlK3FcmmM=
 			</data>
 			<key>hash2</key>
 			<data>
-			hcoMCvwEkQbIfHHp4OfRL77LSIwW7b5XmtoiGHQpeLo=
+			cHcPv+DRIF2kSY9diCTMYVZzTVoe4WFHlpwjjjfowwc=
+			</data>
+		</dict>
+		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			E03jdMyIZKvnE1GdLBLTk7nWGvo=
+			</data>
+			<key>hash2</key>
+			<data>
+			Hb7s60uxPnkCeMr4fKelf3phV+CqAApQJseBoJvZq5s=
+			</data>
+		</dict>
+		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MiraMo8yoYNLItwYq7UnALIwcfA=
+			</data>
+			<key>hash2</key>
+			<data>
+			7rsjIFkgU4IterIb0VVJjdbgyWgeyBtR+wqLpzLye7I=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a/89i6WbUXKTMAX+YY2eLzue6sw=
+			lIyUHd/6bPOvD6xxga9AxuXyrbs=
 			</data>
 			<key>hash2</key>
 			<data>
-			w4wjpCtTxpAR2jYab+3voxb68alF34dly2eqrcWP/Iw=
+			HGAL89KARBbJyu3y9dskoHDcjxYbwFlXqcWtRq5jzjE=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3xELu/EYA4NgfGvxpIJJc2ei4VQ=
+			MiraMo8yoYNLItwYq7UnALIwcfA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ddVyUkQCGcXS802ApvwZenVgCn6i5QKP1ZOk9nS/HMs=
+			7rsjIFkgU4IterIb0VVJjdbgyWgeyBtR+wqLpzLye7I=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KMMdG+7fCai3dxxn21JDppIWYz4=
+			6MZQHGJA8I5CfiQgzFGGfqLQzQM=
 			</data>
 			<key>hash2</key>
 			<data>
-			NAh8nFtnz/BVJSIXLoEZO8Ah9IIFi3DUA3GuzShV5PE=
-			</data>
-		</dict>
-		<key>Modules/MobonSDKFramework.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			a/89i6WbUXKTMAX+YY2eLzue6sw=
-			</data>
-			<key>hash2</key>
-			<data>
-			w4wjpCtTxpAR2jYab+3voxb68alF34dly2eqrcWP/Iw=
-			</data>
-		</dict>
-		<key>Modules/MobonSDKFramework.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3xELu/EYA4NgfGvxpIJJc2ei4VQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			ddVyUkQCGcXS802ApvwZenVgCn6i5QKP1ZOk9nS/HMs=
-			</data>
-		</dict>
-		<key>Modules/MobonSDKFramework.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			KMMdG+7fCai3dxxn21JDppIWYz4=
-			</data>
-			<key>hash2</key>
-			<data>
-			NAh8nFtnz/BVJSIXLoEZO8Ah9IIFi3DUA3GuzShV5PE=
+			vr+JdTgjlQ0HAJF95mxpiFixTrfYqkhg/no/Ib0ghio=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
