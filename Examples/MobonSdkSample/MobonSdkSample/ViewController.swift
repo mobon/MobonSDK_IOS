@@ -32,6 +32,7 @@ class ViewController: UIViewController,MobonBannerAdViewDelegate,MobonInterstiti
         let bannerView = MobonBannerAdView(frame: CGRect(x: 0, y: view.frame.size.height - 50, width: view.bounds.width, height: 50),mediaCode:MEDIACODE,sCode:UNITID)
          bannerView.rootViewController = self
          bannerView.delegate = self
+         bannerView.bannerType = .Banner320x50   //반드시 View Height와 동일한 값으로 맞춰줘야 한다. 기본값은 320x50
        
          view.addSubview(bannerView)
         
