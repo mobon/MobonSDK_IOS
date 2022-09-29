@@ -30,11 +30,11 @@ class ViewController: UIViewController,MobonBannerAdViewDelegate,MobonInterstiti
         // Do any additional setup after loading the view.
     
         let bannerView = MobonBannerAdView(frame: CGRect(x: 0, y: view.frame.size.height - 50, width: view.bounds.width, height: 50),mediaCode:MEDIACODE,sCode:UNITID)
-         bannerView.rootViewController = self
-         bannerView.delegate = self
-         bannerView.bannerType = .Banner320x50   //반드시 View Height와 동일한 값으로 맞춰줘야 한다. 기본값은 320x50
-       
-         view.addSubview(bannerView)
+        bannerView.rootViewController = self
+        bannerView.delegate = self
+        bannerView.bannerType = .Banner320x50   //반드시 View Height와 동일한 값으로 맞춰줘야 한다. 기본값은 320x50
+        
+        view.addSubview(bannerView)
         
         if #available(iOS 14, *) {
             ATTrackingManager.requestTrackingAuthorization { (status) in
