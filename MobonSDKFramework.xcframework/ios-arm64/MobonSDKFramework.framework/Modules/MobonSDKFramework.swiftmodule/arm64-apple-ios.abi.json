@@ -3771,7 +3771,7 @@
     {
       "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Model\/AdData.swift",
       "kind": "BooleanLiteral",
-      "offset": 7411,
+      "offset": 7681,
       "length": 5,
       "value": "false"
     },
@@ -4134,8 +4134,15 @@
     },
     {
       "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3028,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3207,
+      "offset": 3257,
       "length": 5,
       "value": "9999"
     },
