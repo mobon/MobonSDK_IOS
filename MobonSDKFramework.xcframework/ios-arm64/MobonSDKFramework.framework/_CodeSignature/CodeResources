@@ -10,31 +10,31 @@
 		</data>
 		<key>Headers/MobonSDKFramework-Swift.h</key>
 		<data>
-		ImB8W7xugNWLZYmz+/mlK3FcmmM=
+		YM1qNaztBpHSsa3XlXTtZuUNDg0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		G7uMP3sFWdmv1rBbqIzuTzicTdE=
+		t+rcRDgE8PsOckcY23GMVF18k+Q=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		V9xJ6/vIsh/ElT5AMtr0w/hA/SU=
+		A0wY/0zP333+4NIvzDmg5AKAt3M=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		MiraMo8yoYNLItwYq7UnALIwcfA=
+		neuEvsFfcnhRBM7Q3W2mC8JOYQc=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		lIyUHd/6bPOvD6xxga9AxuXyrbs=
+		PR/bdlp5E8SBD37q006LxXnxz3s=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		MiraMo8yoYNLItwYq7UnALIwcfA=
+		neuEvsFfcnhRBM7Q3W2mC8JOYQc=
 		</data>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		qXo+pkJ87yju0Uflnz09E7gl0QA=
+		Ytk1aKtEtftjnGQLVulrUBHi6MY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,66 +58,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ImB8W7xugNWLZYmz+/mlK3FcmmM=
+			YM1qNaztBpHSsa3XlXTtZuUNDg0=
 			</data>
 			<key>hash2</key>
 			<data>
-			cHcPv+DRIF2kSY9diCTMYVZzTVoe4WFHlpwjjjfowwc=
+			5hty6Rx0okNmk532ojC7kZWo/wg4ixwVTOAc3LvHfcY=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V9xJ6/vIsh/ElT5AMtr0w/hA/SU=
+			A0wY/0zP333+4NIvzDmg5AKAt3M=
 			</data>
 			<key>hash2</key>
 			<data>
-			+e/+GfPVW70FACr4AyeOKp0FpvK5OSa1PkhgFI+UEds=
+			cgjuD5bf+dCLEY6pGpDUG5z3FAL0pGrjzkzNKUkVfg8=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MiraMo8yoYNLItwYq7UnALIwcfA=
+			neuEvsFfcnhRBM7Q3W2mC8JOYQc=
 			</data>
 			<key>hash2</key>
 			<data>
-			7rsjIFkgU4IterIb0VVJjdbgyWgeyBtR+wqLpzLye7I=
+			wJbl6sKtZgGyym4RU6CtUGpWivPbPUiV988mPy6ufgo=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lIyUHd/6bPOvD6xxga9AxuXyrbs=
+			PR/bdlp5E8SBD37q006LxXnxz3s=
 			</data>
 			<key>hash2</key>
 			<data>
-			HGAL89KARBbJyu3y9dskoHDcjxYbwFlXqcWtRq5jzjE=
+			VQJT6LHDMwKBj6PDPfdBAPoVYdOW3HeNyjk534o5a+Y=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MiraMo8yoYNLItwYq7UnALIwcfA=
+			neuEvsFfcnhRBM7Q3W2mC8JOYQc=
 			</data>
 			<key>hash2</key>
 			<data>
-			7rsjIFkgU4IterIb0VVJjdbgyWgeyBtR+wqLpzLye7I=
+			wJbl6sKtZgGyym4RU6CtUGpWivPbPUiV988mPy6ufgo=
 			</data>
 		</dict>
 		<key>Modules/MobonSDKFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qXo+pkJ87yju0Uflnz09E7gl0QA=
+			Ytk1aKtEtftjnGQLVulrUBHi6MY=
 			</data>
 			<key>hash2</key>
 			<data>
-			6mdgIrYZmeZKkz3yXYSYT49GqTGB0mmTfsBEIkHWDvQ=
+			YNGtkGWCHfH9jJ+lKsIEffSVhw1sf+oE6pn/ACz48aM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

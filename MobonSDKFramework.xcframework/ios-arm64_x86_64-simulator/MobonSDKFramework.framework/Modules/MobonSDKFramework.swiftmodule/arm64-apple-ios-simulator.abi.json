@@ -3722,49 +3722,42 @@
     {
       "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonWebview.swift",
       "kind": "StringLiteral",
-      "offset": 339,
+      "offset": 372,
       "length": 10,
       "value": "\"mobonSDK\""
     },
     {
       "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonWebview.swift",
       "kind": "StringLiteral",
-      "offset": 408,
+      "offset": 441,
       "length": 14,
       "value": "\"FailCallback\""
     },
     {
       "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonWebview.swift",
       "kind": "StringLiteral",
-      "offset": 481,
+      "offset": 514,
       "length": 17,
       "value": "\"SuccessCallback\""
     },
     {
       "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonWebview.swift",
       "kind": "BooleanLiteral",
-      "offset": 803,
+      "offset": 980,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonWebview.swift",
       "kind": "BooleanLiteral",
-      "offset": 945,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonWebview.swift",
-      "kind": "BooleanLiteral",
-      "offset": 987,
+      "offset": 1022,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonWebview.swift",
       "kind": "BooleanLiteral",
-      "offset": 1038,
+      "offset": 1073,
       "length": 5,
       "value": "false"
     },
@@ -4142,7 +4135,7 @@
     {
       "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/View\/MobonBannerAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3257,
+      "offset": 3289,
       "length": 5,
       "value": "9999"
     },
@@ -4283,13 +4276,6 @@
       "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Model\/UserInfo.swift",
       "kind": "StringLiteral",
       "offset": 481,
-      "length": 3,
-      "value": "\"Y\""
-    },
-    {
-      "filePath": "\/Users\/enliple\/Desktop\/Mobon\/SDK\/MobonSDK\/MobonSDK\/Model\/UserInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 515,
       "length": 6,
       "value": "\"true\""
     },
