@@ -12,8 +12,8 @@ import AppTrackingTransparency
 
 class ViewController: UIViewController,MobonBannerAdViewDelegate,MobonInterstitialAdViewDelegate {
 
-    let MEDIACODE : String = "mobon"
-    let UNITID : String = "432394"
+    let MEDIACODE : String = "MEDIA CODE"
+    let UNITID : String = "UNIT ID"
     var interstitialView : MobonInterstitialAdView?
     
     
@@ -28,24 +28,37 @@ class ViewController: UIViewController,MobonBannerAdViewDelegate,MobonInterstiti
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     
-        let bannerView = MobonBannerAdView(frame: CGRect(x: 0, y: view.frame.size.height - 50, width: view.bounds.width, height: 50),mediaCode:MEDIACODE,sCode:UNITID)
+        let bannerView = MobonBannerAdView(frame: CGRect(x: 0, y: view.frame.size.height - 150, width: view.bounds.width, height: 50),mediaCode:MEDIACODE,sCode:UNITID)
         bannerView.rootViewController = self
         bannerView.delegate = self
         bannerView.bannerType = .Banner320x50   //반드시 View Height와 동일한 값으로 맞춰줘야 한다. 기본값은 320x50
         
         view.addSubview(bannerView)
         
-        if #available(iOS 14, *) {
-            ATTrackingManager.requestTrackingAuthorization { (status) in
-                if status == .authorized {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) { [weak self] in
+            if #available(iOS 14, *) {
+                if ATTrackingManager.trackingAuthorizationStatus == .notDetermined {
+                    DispatchQueue.main.async { [weak self] in
+                        guard let self = self else { return }
+                        
+                        ATTrackingManager.requestTrackingAuthorization { (status) in
+                            if status != .notDetermined {
+                                bannerView.loadAd()
+                            }
+                        }
+                    }
+                }
+                else {
                     bannerView.loadAd()
                 }
             }
+            else {
+                bannerView.loadAd()
+            }
         }
-        else {
-            bannerView.loadAd()
-        }
+        
         
         
         interstitialView = MobonInterstitialAdView(mediaCode:MEDIACODE,unitId:UNITID)

@@ -16,3 +16,4 @@ FOUNDATION_EXPORT const unsigned char MobonSDKVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <MobonSDK/PublicHeader.h>
 
 
+extern const unsigned char * MobonSDKVersionStringPtr;

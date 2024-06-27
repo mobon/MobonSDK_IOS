@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -179,7 +179,6 @@
 				9BB73972253578C900295C47 /* Sources */,
 				9BB73973253578C900295C47 /* Frameworks */,
 				9BB73974253578C900295C47 /* Resources */,
-				1AFA4750D0A949D6D8E719A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,7 +216,6 @@
 				9BB73993253578CA00295C47 /* Sources */,
 				9BB73994253578CA00295C47 /* Frameworks */,
 				9BB73995253578CA00295C47 /* Resources */,
-				21D3D712E219D8E387CB64A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,40 +297,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1AFA4750D0A949D6D8E719A7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample/Pods-MobonSdkSample-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample/Pods-MobonSdkSample-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample/Pods-MobonSdkSample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		21D3D712E219D8E387CB64A1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample-MobonSdkSampleUITests/Pods-MobonSdkSample-MobonSdkSampleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample-MobonSdkSampleUITests/Pods-MobonSdkSample-MobonSdkSampleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobonSdkSample-MobonSdkSampleUITests/Pods-MobonSdkSample-MobonSdkSampleUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		91D3AD53F615460EE6CC90FE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

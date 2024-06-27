@@ -7,15 +7,13 @@ target 'MobonSdkSample' do
 
   pod 'MobonSDK'
 
-  # Pods for MobonSdkSample
-
   target 'MobonSdkSampleTests' do
     inherit! :search_paths
-    # Pods for testing
+    
   end
 
   target 'MobonSdkSampleUITests' do
-    # Pods for testing
+
   end
 
 end
